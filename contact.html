@@ -17,6 +17,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <script src="https://formsubmit.co/js/app.js" defer></script>
     <style>
       /* Custom Styles */
       body {
@@ -173,7 +174,8 @@
           <div class="col-md-6 mb-4">
             <div class="contact-form-card">
               <h2>Get in Touch</h2>
-              <form action="https://formsubmit.co/el/gagawu" method="POST">
+              <form action="https://formsubmit.co/el/gagawu" method="POST" id="target">
+                 <input type="hidden" name="_token" value="lmt0kBH2RtZfcolg8eImnTq7grZYYLFUlk1NrSl6"> 
                 <!-- Form Fields -->
                 <div class="mb-3">
                   <label for="name" class="form-label">Full Name</label>
